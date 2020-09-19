@@ -41,11 +41,10 @@ echo
         echo "INSTALLING php"
 echo
 echo
-         apt install php libapache2-mod-php php-mysql -y 
+         apt install  php php-fpm php-mysql -y 
 
-        #sed -i '2d' /etc/apache2/mods-available/dir.conf
-        #sed -i '2iDirectoryIndex index.php index.cgi index.pl index.html index.xhtml index.htm' /etc/apache2/mods-available/dir.conf
-        #systemctl restart apache2
+        systemctl start php7.4-fpm
+
 echo
 echo
         echo "SUCESSFULLY INSTALLED php"
