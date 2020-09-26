@@ -43,8 +43,6 @@ echo
 echo
          apt install  php php-fpm php-mysql -y 
 
-        systemctl start php7.4-fpm
-
 echo
 echo
         echo "SUCESSFULLY INSTALLED php"
