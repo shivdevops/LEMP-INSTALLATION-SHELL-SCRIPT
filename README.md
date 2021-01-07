@@ -1,7 +1,6 @@
-# LEMP Installation, Nginix,Mysql and apache2 shell script for ubuntu OS's.
+# LEMP Installation, Nginix,Mysql and Php shell script for ubuntu OS's.
 
-
-  **Installation script for LEMP current versions of Nginx, mysql and php for ubuntu OS's.**
+  **Automated installation script for LEMP current versions of Nginx, mysql and php for ubuntu OS's.**
 
 
   * Download the script.
